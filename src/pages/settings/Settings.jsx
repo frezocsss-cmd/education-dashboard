@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
+  HiOutlineArrowPath,
   HiOutlineArrowRightOnRectangle,
   HiOutlineBanknotes,
   HiOutlineBuildingOffice2,
@@ -26,7 +27,7 @@ import { Field, FormGrid, Input } from '@/components/common/FormControls'
 import { useAuth } from '@/hooks/useAuth'
 import { useRecord, useForm } from '@/hooks/useApi'
 import { useThemeStore } from '@/store/themeStore'
-import { api } from '@/services/api'
+import { api, getBackendMode } from '@/services/api'
 import { toast } from '@/store/toastStore'
 import { confirm } from '@/store/confirmStore'
 import { AUTH_CONFIG } from '@/config/auth'
@@ -60,6 +61,7 @@ export default function Settings() {
   const [savingProfile, setSavingProfile] = useState(false)
   const [savingPassword, setSavingPassword] = useState(false)
   const [savingCenter, setSavingCenter] = useState(false)
+  const [backendMode, setBackendMode] = useState('remote')
   const [showPassword, setShowPassword] = useState({ current: false, next: false, confirm: false })
 
   const profileForm = useForm({
@@ -86,6 +88,18 @@ export default function Settings() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [settings])
+
+  useEffect(() => {
+    let active = true
+    getBackendMode()
+      .then((mode) => {
+        if (active) setBackendMode(mode)
+      })
+      .catch(() => {})
+    return () => {
+      active = false
+    }
+  }, [])
 
   async function handleProfileSubmit(event) {
     event.preventDefault()
@@ -188,6 +202,21 @@ export default function Settings() {
     } finally {
       setSavingCenter(false)
     }
+  }
+
+  async function handleResetDemo() {
+    const approved = await confirm({
+      title: "Demo ma'lumotlarini tiklash",
+      description:
+        "Brauzerdagi barcha o'zgarishlar o'chiriladi va boshlang'ich demo ma'lumotlari qayta yuklanadi. Bu amalni ortga qaytarib bo'lmaydi.",
+      confirmLabel: 'Tiklash',
+      tone: 'danger',
+    })
+    if (!approved) return
+    const { resetLocalData } = await import('@/services/localApi')
+    resetLocalData()
+    toast.success("Demo ma'lumotlari tiklandi", 'Sahifa qayta yuklanmoqda...')
+    window.setTimeout(() => window.location.reload(), 700)
   }
 
   async function handleLogout() {
@@ -482,12 +511,26 @@ export default function Settings() {
                       Administrator seansi faol
                     </p>
                     <p className="mt-0.5 text-[11px] text-subtle">
-                      Demo ma'lumotlari brauzer xotirasida saqlanadi. Umumiy joylashuvda foydalanmang.
+                      {backendMode === 'local'
+                        ? "Statik demo rejimi: o'zgarishlar shu brauzerda saqlanadi va boshqa qurilmalarga ta'sir qilmaydi."
+                        : "Ma'lumotlar JSON Server bazasidan yuklanadi. Demo hisob ma'lumotlarini umumiy joylashuvda ishlatmang."}
                     </p>
                   </div>
-                  <Button variant="danger" size="sm" onClick={handleLogout}>
-                    Tizimdan chiqish
-                  </Button>
+                  <div className="flex shrink-0 flex-wrap gap-2">
+                    {backendMode === 'local' && (
+                      <Button
+                        variant="secondary"
+                        size="sm"
+                        icon={HiOutlineArrowPath}
+                        onClick={handleResetDemo}
+                      >
+                        Demo ma'lumotlarini tiklash
+                      </Button>
+                    )}
+                    <Button variant="danger" size="sm" onClick={handleLogout}>
+                      Tizimdan chiqish
+                    </Button>
+                  </div>
                 </div>
               </SectionCard>
             </>

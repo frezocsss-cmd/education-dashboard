@@ -1,5 +1,51 @@
 export const API_BASE_URL = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '')
 
+const DATA_MODE = import.meta.env.VITE_DATA_MODE || 'auto'
+
+let backendPromise = null
+let localBackendPromise = null
+
+function getLocalBackend() {
+  if (!localBackendPromise) {
+    localBackendPromise = import('./localApi').then((module) => module.localBackend)
+  }
+  return localBackendPromise
+}
+
+/**
+ * Qaysi backend ishlatilishini aniqlaydi:
+ * - JSON Server mavjud bo'lsa — remote;
+ * - statik hostingda API bo'lmasa — brauzerdagi demo backend.
+ */
+function detectBackend() {
+  if (DATA_MODE === 'local') return getLocalBackend()
+  if (DATA_MODE === 'remote') return Promise.resolve(null)
+  if (!backendPromise) {
+    backendPromise = (async () => {
+      try {
+        const canTimeout =
+          typeof AbortSignal !== 'undefined' && typeof AbortSignal.timeout === 'function'
+        const response = await fetch(`${API_BASE_URL}/students`, {
+          headers: { Accept: 'application/json' },
+          signal: canTimeout ? AbortSignal.timeout(5000) : undefined,
+        })
+        if (!response.ok) return getLocalBackend()
+        const payload = await response.json()
+        return Array.isArray(payload) ? null : getLocalBackend()
+      } catch {
+        return getLocalBackend()
+      }
+    })()
+  }
+  return backendPromise
+}
+
+/** Joriy ma'lumot manbai: "remote" (JSON Server) yoki "local" (brauzer demo rejimi). */
+export async function getBackendMode() {
+  const backend = await detectBackend()
+  return backend ? 'local' : 'remote'
+}
+
 export class ApiError extends Error {
   constructor(message, status = 0) {
     super(message)
@@ -68,22 +114,34 @@ async function request(path, { method = 'GET', body, params, signal } = {}) {
 }
 
 export const api = {
-  list(resource, params, signal) {
+  async list(resource, params, signal) {
+    const local = await detectBackend()
+    if (local) return local.list(resource, params)
     return request(`/${resource}`, { params, signal })
   },
-  get(resource, id, signal) {
+  async get(resource, id, signal) {
+    const local = await detectBackend()
+    if (local) return local.get(resource, id)
     return request(`/${resource}/${id}`, { signal })
   },
-  create(resource, data) {
+  async create(resource, data) {
+    const local = await detectBackend()
+    if (local) return local.create(resource, data)
     return request(`/${resource}`, { method: 'POST', body: data })
   },
-  update(resource, id, data) {
+  async update(resource, id, data) {
+    const local = await detectBackend()
+    if (local) return local.update(resource, id, data)
     return request(`/${resource}/${id}`, { method: 'PUT', body: data })
   },
-  patch(resource, id, data) {
+  async patch(resource, id, data) {
+    const local = await detectBackend()
+    if (local) return local.patch(resource, id, data)
     return request(`/${resource}/${id}`, { method: 'PATCH', body: data })
   },
-  remove(resource, id) {
+  async remove(resource, id) {
+    const local = await detectBackend()
+    if (local) return local.remove(resource, id)
     return request(`/${resource}/${id}`, { method: 'DELETE' })
   },
 }
