@@ -1,0 +1,7092 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Zarina",
+      "lastName": "Karimova",
+      "phone": "+998933400011",
+      "parentId": 1,
+      "parentName": "Rustam Karimov",
+      "parentPhone": "+998932001122",
+      "courseId": 1,
+      "groupId": 1,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2025-10-14",
+      "monthlyFee": 600000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "Ota-onasi bilan aloqa yaxshi yo'lga qo'yilgan."
+    },
+    {
+      "id": 2,
+      "firstName": "Farrux",
+      "lastName": "Karimov",
+      "phone": "+998913400988",
+      "parentId": 1,
+      "parentName": "Rustam Karimov",
+      "parentPhone": "+998932001122",
+      "courseId": 1,
+      "groupId": 2,
+      "level": "O'rta",
+      "enrollmentDate": "2025-10-09",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "firstName": "Nodira",
+      "lastName": "Nazarova",
+      "phone": "+998913401965",
+      "parentId": 2,
+      "parentName": "Gulnora Nazarova",
+      "parentPhone": "+998932001433",
+      "courseId": 1,
+      "groupId": 3,
+      "level": "Yuqori",
+      "enrollmentDate": "2025-10-15",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 4,
+      "firstName": "Rustam",
+      "lastName": "Toshmatov",
+      "phone": "+998993402942",
+      "parentId": 3,
+      "parentName": "Bahodir Toshmatov",
+      "parentPhone": "+998932001744",
+      "courseId": 2,
+      "groupId": 4,
+      "level": "IELTS",
+      "enrollmentDate": "2025-10-15",
+      "monthlyFee": 900000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Darslarga doimiy qatnashadi, matematikaga qiziqishi yuqori."
+    },
+    {
+      "id": 5,
+      "firstName": "Malika",
+      "lastName": "Yusupova",
+      "phone": "+998993403919",
+      "parentId": 4,
+      "parentName": "Feruza Yusupova",
+      "parentPhone": "+998932002055",
+      "courseId": 2,
+      "groupId": 5,
+      "level": "IELTS",
+      "enrollmentDate": "2025-11-20",
+      "monthlyFee": 900000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Ota-onasi bilan aloqa yaxshi yo'lga qo'yilgan."
+    },
+    {
+      "id": 6,
+      "firstName": "Ibrohim",
+      "lastName": "Rahimov",
+      "phone": "+998913404896",
+      "parentId": 5,
+      "parentName": "Akmal Rahimov",
+      "parentPhone": "+998932002366",
+      "courseId": 3,
+      "groupId": 6,
+      "level": "O'rta",
+      "enrollmentDate": "2025-11-13",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Guruhda faol, lekin uy vazifalarini kechiktirib topshiradi."
+    },
+    {
+      "id": 7,
+      "firstName": "Sherzod",
+      "lastName": "Rahimov",
+      "phone": "+998933405873",
+      "parentId": 5,
+      "parentName": "Akmal Rahimov",
+      "parentPhone": "+998932002366",
+      "courseId": 4,
+      "groupId": 7,
+      "level": "Yuqori",
+      "enrollmentDate": "2025-11-05",
+      "monthlyFee": 1200000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Dilnoza",
+      "lastName": "Abdullayeva",
+      "phone": "+998993406850",
+      "parentId": 6,
+      "parentName": "Nodira Abdullayeva",
+      "parentPhone": "+998932002677",
+      "courseId": 5,
+      "groupId": 8,
+      "level": "O'rta",
+      "enrollmentDate": "2025-12-18",
+      "monthlyFee": 850000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "IELTS uchun speaking bo'yicha qo'shimcha mashg'ulot kerak."
+    },
+    {
+      "id": 9,
+      "firstName": "Xurshid",
+      "lastName": "Ismoilov",
+      "phone": "+998913407827",
+      "parentId": 7,
+      "parentName": "Sherzod Ismoilov",
+      "parentPhone": "+998932002988",
+      "courseId": 6,
+      "groupId": 9,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2025-12-12",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 10,
+      "firstName": "Shodiya",
+      "lastName": "Sattorova",
+      "phone": "+998973408804",
+      "parentId": 8,
+      "parentName": "Malika Sattorova",
+      "parentPhone": "+998932003299",
+      "courseId": 7,
+      "groupId": 10,
+      "level": "O'rta",
+      "enrollmentDate": "2025-12-02",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 11,
+      "firstName": "Madina",
+      "lastName": "Ergasheva",
+      "phone": "+998983409781",
+      "parentId": 9,
+      "parentName": "Davron Ergashev",
+      "parentPhone": "+998932003610",
+      "courseId": 8,
+      "groupId": 11,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-01-27",
+      "monthlyFee": 700000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "firstName": "Dildora",
+      "lastName": "Ergasheva",
+      "phone": "+998903410758",
+      "parentId": 9,
+      "parentName": "Davron Ergashev",
+      "parentPhone": "+998932003610",
+      "courseId": 1,
+      "groupId": 1,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-01-07",
+      "monthlyFee": 600000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "Bir muddat kasallik sababli darslarni o'tkazib yubordi."
+    },
+    {
+      "id": 13,
+      "firstName": "Zarina",
+      "lastName": "Mirzayeva",
+      "phone": "+998913411735",
+      "parentId": 10,
+      "parentName": "Charos Mirzayeva",
+      "parentPhone": "+998932003921",
+      "courseId": 1,
+      "groupId": 2,
+      "level": "O'rta",
+      "enrollmentDate": "2026-01-12",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Ota-onasi bilan aloqa yaxshi yo'lga qo'yilgan."
+    },
+    {
+      "id": 14,
+      "firstName": "Zulfiya",
+      "lastName": "Xolmatova",
+      "phone": "+998973412712",
+      "parentId": 11,
+      "parentName": "Bobur Xolmatov",
+      "parentPhone": "+998932004232",
+      "courseId": 1,
+      "groupId": 3,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-02-24",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "firstName": "Akmal",
+      "lastName": "Qodirova",
+      "phone": "+998903413689",
+      "parentId": 12,
+      "parentName": "Zulfiya Qodirova",
+      "parentPhone": "+998932004543",
+      "courseId": 2,
+      "groupId": 4,
+      "level": "IELTS",
+      "enrollmentDate": "2026-02-03",
+      "monthlyFee": 900000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "firstName": "Mohinur",
+      "lastName": "Sharipova",
+      "phone": "+998983414666",
+      "parentId": 13,
+      "parentName": "Islom Sharipov",
+      "parentPhone": "+998932004854",
+      "courseId": 2,
+      "groupId": 5,
+      "level": "IELTS",
+      "enrollmentDate": "2026-02-01",
+      "monthlyFee": 900000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "IELTS uchun speaking bo'yicha qo'shimcha mashg'ulot kerak."
+    },
+    {
+      "id": 17,
+      "firstName": "Nozima",
+      "lastName": "Sharipova",
+      "phone": "+998903415643",
+      "parentId": 13,
+      "parentName": "Islom Sharipov",
+      "parentPhone": "+998932004854",
+      "courseId": 3,
+      "groupId": 6,
+      "level": "O'rta",
+      "enrollmentDate": "2026-03-19",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "firstName": "Sevinch",
+      "lastName": "Umarova",
+      "phone": "+998933416620",
+      "parentId": 14,
+      "parentName": "Nilufar Umarova",
+      "parentPhone": "+998932005165",
+      "courseId": 4,
+      "groupId": 7,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-03-07",
+      "monthlyFee": 1100000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Guruhda faol, lekin uy vazifalarini kechiktirib topshiradi."
+    },
+    {
+      "id": 19,
+      "firstName": "Anvar",
+      "lastName": "Jalilov",
+      "phone": "+998913417597",
+      "parentId": 15,
+      "parentName": "Sanjar Jalilov",
+      "parentPhone": "+998932005476",
+      "courseId": 5,
+      "groupId": 8,
+      "level": "O'rta",
+      "enrollmentDate": "2026-03-19",
+      "monthlyFee": 850000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Guruhda faol, lekin uy vazifalarini kechiktirib topshiradi."
+    },
+    {
+      "id": 20,
+      "firstName": "Doniyor",
+      "lastName": "Rashidova",
+      "phone": "+998903418574",
+      "parentId": 16,
+      "parentName": "Aziza Rashidova",
+      "parentPhone": "+998932005787",
+      "courseId": 6,
+      "groupId": 9,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-03-21",
+      "monthlyFee": 550000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "IELTS uchun speaking bo'yicha qo'shimcha mashg'ulot kerak."
+    },
+    {
+      "id": 21,
+      "firstName": "Malika",
+      "lastName": "Nazarova",
+      "phone": "+998903419551",
+      "parentId": 17,
+      "parentName": "Temur Nazarov",
+      "parentPhone": "+998932006098",
+      "courseId": 7,
+      "groupId": 10,
+      "level": "O'rta",
+      "enrollmentDate": "2026-04-03",
+      "monthlyFee": 500000,
+      "paymentStatus": "partial",
+      "photo": "",
+      "notes": "Darslarga doimiy qatnashadi, matematikaga qiziqishi yuqori."
+    },
+    {
+      "id": 22,
+      "firstName": "Sherzod",
+      "lastName": "Nazarov",
+      "phone": "+998933420528",
+      "parentId": 17,
+      "parentName": "Temur Nazarov",
+      "parentPhone": "+998932006098",
+      "courseId": 8,
+      "groupId": 11,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-04-20",
+      "monthlyFee": 700000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 23,
+      "firstName": "Doniyor",
+      "lastName": "Karimova",
+      "phone": "+998973421505",
+      "parentId": 18,
+      "parentName": "Mohinur Karimova",
+      "parentPhone": "+998932006409",
+      "courseId": 1,
+      "groupId": 1,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-04-25",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "firstName": "Sherzod",
+      "lastName": "Toshmatov",
+      "phone": "+998973422482",
+      "parentId": 19,
+      "parentName": "Otabek Toshmatov",
+      "parentPhone": "+998932006720",
+      "courseId": 1,
+      "groupId": 2,
+      "level": "O'rta",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 25,
+      "firstName": "Sanjar",
+      "lastName": "Rahimova",
+      "phone": "+998913423459",
+      "parentId": 20,
+      "parentName": "Sevinch Rahimova",
+      "parentPhone": "+998932007031",
+      "courseId": 1,
+      "groupId": 3,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-05-14",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 26,
+      "firstName": "Dildora",
+      "lastName": "Abdullayeva",
+      "phone": "+998973424436",
+      "parentId": 21,
+      "parentName": "Javohir Abdullayev",
+      "parentPhone": "+998932007342",
+      "courseId": 2,
+      "groupId": 4,
+      "level": "IELTS",
+      "enrollmentDate": "2026-05-13",
+      "monthlyFee": 900000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Darslarga doimiy qatnashadi, matematikaga qiziqishi yuqori."
+    },
+    {
+      "id": 27,
+      "firstName": "Dilnoza",
+      "lastName": "Abdullayeva",
+      "phone": "+998903425413",
+      "parentId": 21,
+      "parentName": "Javohir Abdullayev",
+      "parentPhone": "+998932007342",
+      "courseId": 2,
+      "groupId": 5,
+      "level": "IELTS",
+      "enrollmentDate": "2026-06-10",
+      "monthlyFee": 800000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "Bir muddat kasallik sababli darslarni o'tkazib yubordi."
+    },
+    {
+      "id": 28,
+      "firstName": "Ibrohim",
+      "lastName": "Ismoilova",
+      "phone": "+998973426390",
+      "parentId": 22,
+      "parentName": "Laylo Ismoilova",
+      "parentPhone": "+998932007653",
+      "courseId": 3,
+      "groupId": 6,
+      "level": "O'rta",
+      "enrollmentDate": "2026-06-15",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Guruhda faol, lekin uy vazifalarini kechiktirib topshiradi."
+    },
+    {
+      "id": 29,
+      "firstName": "Sardor",
+      "lastName": "Yusupov",
+      "phone": "+998993427367",
+      "parentId": 23,
+      "parentName": "Farrux Yusupov",
+      "parentPhone": "+998932007964",
+      "courseId": 4,
+      "groupId": 7,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-06-10",
+      "monthlyFee": 1200000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": "IELTS uchun speaking bo'yicha qo'shimcha mashg'ulot kerak."
+    },
+    {
+      "id": 30,
+      "firstName": "Otabek",
+      "lastName": "Sattorova",
+      "phone": "+998993428344",
+      "parentId": 24,
+      "parentName": "Munisa Sattorova",
+      "parentPhone": "+998932008275",
+      "courseId": 5,
+      "groupId": 8,
+      "level": "O'rta",
+      "enrollmentDate": "2026-07-24",
+      "monthlyFee": 850000,
+      "paymentStatus": "partial",
+      "photo": "",
+      "notes": "Kursni tugatgach xalqaro sertifikat olishni rejalashtirgan."
+    },
+    {
+      "id": 31,
+      "firstName": "Nozima",
+      "lastName": "Mirzayeva",
+      "phone": "+998913429321",
+      "parentId": 25,
+      "parentName": "Xurshid Mirzayev",
+      "parentPhone": "+998932008586",
+      "courseId": 6,
+      "groupId": 9,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-07-17",
+      "monthlyFee": 550000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Ota-onasi bilan aloqa yaxshi yo'lga qo'yilgan."
+    },
+    {
+      "id": 32,
+      "firstName": "Suhrob",
+      "lastName": "Mirzayev",
+      "phone": "+998973430298",
+      "parentId": 25,
+      "parentName": "Xurshid Mirzayev",
+      "parentPhone": "+998932008586",
+      "courseId": 7,
+      "groupId": 10,
+      "level": "O'rta",
+      "enrollmentDate": "2026-07-21",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": "Bir muddat kasallik sababli darslarni o'tkazib yubordi."
+    },
+    {
+      "id": 33,
+      "firstName": "Gulnora",
+      "lastName": "Ergasheva",
+      "phone": "+998913431275",
+      "parentId": 26,
+      "parentName": "Nozima Ergasheva",
+      "parentPhone": "+998932008897",
+      "courseId": 8,
+      "groupId": 11,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-08-10",
+      "monthlyFee": 700000,
+      "paymentStatus": "partial",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "firstName": "Doniyor",
+      "lastName": "Sattorova",
+      "phone": "+998903432252",
+      "parentId": 8,
+      "parentName": "Malika Sattorova",
+      "parentPhone": "+998932003299",
+      "courseId": 1,
+      "groupId": 1,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "firstName": "Doniyor",
+      "lastName": "Ergashev",
+      "phone": "+998983433229",
+      "parentId": 9,
+      "parentName": "Davron Ergashev",
+      "parentPhone": "+998932003610",
+      "courseId": 1,
+      "groupId": 2,
+      "level": "O'rta",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 600000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "firstName": "Nilufar",
+      "lastName": "Mirzayeva",
+      "phone": "+998913434206",
+      "parentId": 10,
+      "parentName": "Charos Mirzayeva",
+      "parentPhone": "+998932003921",
+      "courseId": 1,
+      "groupId": 3,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 550000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "firstName": "Laylo",
+      "lastName": "Xolmatova",
+      "phone": "+998973435183",
+      "parentId": 11,
+      "parentName": "Bobur Xolmatov",
+      "parentPhone": "+998932004232",
+      "courseId": 2,
+      "groupId": 4,
+      "level": "IELTS",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 900000,
+      "paymentStatus": "partial",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "firstName": "Zarina",
+      "lastName": "Qodirova",
+      "phone": "+998933436160",
+      "parentId": 12,
+      "parentName": "Zulfiya Qodirova",
+      "parentPhone": "+998932004543",
+      "courseId": 2,
+      "groupId": 5,
+      "level": "IELTS",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 900000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "firstName": "Nodira",
+      "lastName": "Sharipova",
+      "phone": "+998913437137",
+      "parentId": 13,
+      "parentName": "Islom Sharipov",
+      "parentPhone": "+998932004854",
+      "courseId": 3,
+      "groupId": 6,
+      "level": "O'rta",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 500000,
+      "paymentStatus": "paid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "firstName": "Doston",
+      "lastName": "Umarova",
+      "phone": "+998913438114",
+      "parentId": 14,
+      "parentName": "Nilufar Umarova",
+      "parentPhone": "+998932005165",
+      "courseId": 4,
+      "groupId": 7,
+      "level": "Yuqori",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 1200000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "firstName": "Ziyoda",
+      "lastName": "Jalilova",
+      "phone": "+998993439091",
+      "parentId": 15,
+      "parentName": "Sanjar Jalilov",
+      "parentPhone": "+998932005476",
+      "courseId": 5,
+      "groupId": 8,
+      "level": "O'rta",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 850000,
+      "paymentStatus": "unpaid",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "firstName": "Dildora",
+      "lastName": "Rashidova",
+      "phone": "+998973440068",
+      "parentId": 16,
+      "parentName": "Aziza Rashidova",
+      "parentPhone": "+998932005787",
+      "courseId": 6,
+      "groupId": 9,
+      "level": "Boshlang'ich",
+      "enrollmentDate": "2026-05-03",
+      "monthlyFee": 550000,
+      "paymentStatus": "partial",
+      "photo": "",
+      "notes": ""
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Dilnoza",
+      "lastName": "Rahimova",
+      "phone": "+998901122334",
+      "email": "dilnoza.rahimova@nexusedu.uz",
+      "specialization": "Ingliz tili",
+      "groupIds": [
+        1,
+        2
+      ],
+      "experience": 7,
+      "salary": 7000000,
+      "joinDate": "2021-03-15",
+      "status": "active",
+      "photo": "",
+      "notes": "Xalqaro sertifikatga ega, speaking club rahbari."
+    },
+    {
+      "id": 2,
+      "firstName": "Sardor",
+      "lastName": "Yusupov",
+      "phone": "+998901122471",
+      "email": "sardor.yusupov@nexusedu.uz",
+      "specialization": "IELTS",
+      "groupIds": [
+        4
+      ],
+      "experience": 9,
+      "salary": 8500000,
+      "joinDate": "2020-09-01",
+      "status": "active",
+      "photo": "",
+      "notes": "Xalqaro sertifikatga ega, speaking club rahbari."
+    },
+    {
+      "id": 3,
+      "firstName": "Nilufar",
+      "lastName": "Abdullayeva",
+      "phone": "+998901122608",
+      "email": "nilufar.abdullayeva@nexusedu.uz",
+      "specialization": "Matematika",
+      "groupIds": [
+        6
+      ],
+      "experience": 6,
+      "salary": 6800000,
+      "joinDate": "2022-01-10",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "firstName": "Jasur",
+      "lastName": "Toshmatov",
+      "phone": "+998901122745",
+      "email": "jasur.toshmatov@nexusedu.uz",
+      "specialization": "Frontend dasturlash",
+      "groupIds": [
+        7
+      ],
+      "experience": 5,
+      "salary": 9000000,
+      "joinDate": "2022-08-22",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "firstName": "Madina",
+      "lastName": "Ismoilova",
+      "phone": "+998901122882",
+      "email": "madina.ismoilova@nexusedu.uz",
+      "specialization": "Grafik dizayn",
+      "groupIds": [
+        8
+      ],
+      "experience": 4,
+      "salary": 7500000,
+      "joinDate": "2023-02-06",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "firstName": "Otabek",
+      "lastName": "Ergashev",
+      "phone": "+998901123019",
+      "email": "otabek.ergashev@nexusedu.uz",
+      "specialization": "Rus tili",
+      "groupIds": [
+        9
+      ],
+      "experience": 8,
+      "salary": 6500000,
+      "joinDate": "2021-11-18",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "firstName": "Zarina",
+      "lastName": "Qodirova",
+      "phone": "+998901123156",
+      "email": "zarina.qodirova@nexusedu.uz",
+      "specialization": "Kimyo",
+      "groupIds": [
+        10
+      ],
+      "experience": 5,
+      "salary": 6200000,
+      "joinDate": "2022-09-05",
+      "status": "vacation",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Bekzod",
+      "lastName": "Sattorov",
+      "phone": "+998901123293",
+      "email": "bekzod.sattorov@nexusedu.uz",
+      "specialization": "Robototexnika",
+      "groupIds": [
+        11
+      ],
+      "experience": 3,
+      "salary": 5800000,
+      "joinDate": "2023-06-12",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "firstName": "Kamola",
+      "lastName": "Mirzayeva",
+      "phone": "+998901123430",
+      "email": "kamola.mirzayeva@nexusedu.uz",
+      "specialization": "Ingliz tili",
+      "groupIds": [
+        3,
+        12
+      ],
+      "experience": 4,
+      "salary": 6200000,
+      "joinDate": "2023-01-23",
+      "status": "active",
+      "photo": "",
+      "notes": "Xalqaro sertifikatga ega, speaking club rahbari."
+    },
+    {
+      "id": 10,
+      "firstName": "Temur",
+      "lastName": "Xolmatov",
+      "phone": "+998901123567",
+      "email": "temur.xolmatov@nexusedu.uz",
+      "specialization": "Matematika",
+      "groupIds": [],
+      "experience": 10,
+      "salary": 7800000,
+      "joinDate": "2019-09-09",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "firstName": "Shahzoda",
+      "lastName": "Sharipova",
+      "phone": "+998901123704",
+      "email": "shahzoda.sharipova@nexusedu.uz",
+      "specialization": "IELTS",
+      "groupIds": [
+        5
+      ],
+      "experience": 6,
+      "salary": 7200000,
+      "joinDate": "2022-04-04",
+      "status": "active",
+      "photo": "",
+      "notes": "Xalqaro sertifikatga ega, speaking club rahbari."
+    },
+    {
+      "id": 12,
+      "firstName": "Ulug’bek",
+      "lastName": "Umarov",
+      "phone": "+998901123841",
+      "email": "ulugbek.umarov@nexusedu.uz",
+      "specialization": "Frontend dasturlash",
+      "groupIds": [],
+      "experience": 3,
+      "salary": 7000000,
+      "joinDate": "2024-02-19",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Zilola",
+      "lastName": "Xudoyberdiyeva",
+      "phone": "+998971005500",
+      "position": "Qabul bo’limi menejeri",
+      "salary": 5200000,
+      "joinDate": "2022-05-10",
+      "schedule": "09:00 — 18:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "firstName": "Anvar",
+      "lastName": "Sobirov",
+      "phone": "+998971005921",
+      "position": "Buxgalter",
+      "salary": 6800000,
+      "joinDate": "2021-02-01",
+      "schedule": "09:00 — 18:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "firstName": "Dildora",
+      "lastName": "Nematova",
+      "phone": "+998971006342",
+      "position": "Marketing menejeri",
+      "salary": 6100000,
+      "joinDate": "2023-03-14",
+      "schedule": "10:00 — 19:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "firstName": "Sirojiddin",
+      "lastName": "Hamidov",
+      "phone": "+998971006763",
+      "position": "IT administrator",
+      "salary": 7200000,
+      "joinDate": "2022-11-21",
+      "schedule": "09:00 — 18:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "firstName": "Maftuna",
+      "lastName": "Tursunova",
+      "phone": "+998971007184",
+      "position": "Kotiba",
+      "salary": 4200000,
+      "joinDate": "2024-01-08",
+      "schedule": "09:00 — 17:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "firstName": "Elyor",
+      "lastName": "Rasulov",
+      "phone": "+998971007605",
+      "position": "Qo’riqchi",
+      "salary": 3500000,
+      "joinDate": "2022-07-19",
+      "schedule": "18:00 — 06:00",
+      "status": "active",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "firstName": "Nigora",
+      "lastName": "Saidova",
+      "phone": "+998971008026",
+      "position": "Tozalik xizmati",
+      "salary": 3200000,
+      "joinDate": "2023-09-04",
+      "schedule": "07:00 — 15:00",
+      "status": "vacation",
+      "photo": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Kamron",
+      "lastName": "Xolmatov",
+      "phone": "+998971008447",
+      "position": "Administrator yordamchisi",
+      "salary": 4500000,
+      "joinDate": "2024-06-03",
+      "schedule": "10:00 — 19:00",
+      "status": "inactive",
+      "photo": "",
+      "notes": ""
+    }
+  ],
+  "parents": [
+    {
+      "id": 1,
+      "firstName": "Rustam",
+      "lastName": "Karimov",
+      "phone": "+998932001122",
+      "email": "rustam.karimov1@mail.uz",
+      "address": "Yunusobod, 4-mavze, 12-uy",
+      "studentIds": [
+        1,
+        2
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    },
+    {
+      "id": 2,
+      "firstName": "Gulnora",
+      "lastName": "Nazarova",
+      "phone": "+998932001433",
+      "email": "gulnora.nazarova2@mail.uz",
+      "address": "Chilonzor, 9-mavze, 45-uy",
+      "studentIds": [
+        3
+      ],
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "firstName": "Bahodir",
+      "lastName": "Toshmatov",
+      "phone": "+998932001744",
+      "email": "bahodir.toshmatov3@mail.uz",
+      "address": "Mirzo Ulug’bek, Buyuk Ipak Yo’li 88",
+      "studentIds": [
+        4
+      ],
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "firstName": "Feruza",
+      "lastName": "Yusupova",
+      "phone": "+998932002055",
+      "email": "feruza.yusupova4@mail.uz",
+      "address": "Sergeli, 5-mavze, 18-uy",
+      "studentIds": [
+        5
+      ],
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "firstName": "Akmal",
+      "lastName": "Rahimov",
+      "phone": "+998932002366",
+      "email": "akmal.rahimov5@mail.uz",
+      "address": "Yakkasaroy, Shota Rustaveli 22",
+      "studentIds": [
+        6,
+        7
+      ],
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "firstName": "Nodira",
+      "lastName": "Abdullayeva",
+      "phone": "+998932002677",
+      "email": "nodira.abdullayeva6@mail.uz",
+      "address": "Olmazor, Qorasaroy 7-uy",
+      "studentIds": [
+        8
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    },
+    {
+      "id": 7,
+      "firstName": "Sherzod",
+      "lastName": "Ismoilov",
+      "phone": "+998932002988",
+      "email": "sherzod.ismoilov7@mail.uz",
+      "address": "Bektemir, Oltintopgan 31",
+      "studentIds": [
+        9
+      ],
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Malika",
+      "lastName": "Sattorova",
+      "phone": "+998932003299",
+      "email": "malika.sattorova8@mail.uz",
+      "address": "Mirobod, Afrosiyob 14",
+      "studentIds": [
+        10,
+        34
+      ],
+      "notes": "Farzandining davomati yuzasidan alohida nazorat talab qiladi."
+    },
+    {
+      "id": 9,
+      "firstName": "Davron",
+      "lastName": "Ergashev",
+      "phone": "+998932003610",
+      "email": "davron.ergashev9@mail.uz",
+      "address": "Yunusobod, 19-mavze, 3-uy",
+      "studentIds": [
+        11,
+        12,
+        35
+      ],
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "firstName": "Charos",
+      "lastName": "Mirzayeva",
+      "phone": "+998932003921",
+      "email": "charos.mirzayeva10@mail.uz",
+      "address": "Uchtepa, 2-mavze, 56-uy",
+      "studentIds": [
+        13,
+        36
+      ],
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "firstName": "Bobur",
+      "lastName": "Xolmatov",
+      "phone": "+998932004232",
+      "email": "bobur.xolmatov11@mail.uz",
+      "address": "Shayxontohur, Labzak 9",
+      "studentIds": [
+        14,
+        37
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    },
+    {
+      "id": 12,
+      "firstName": "Zulfiya",
+      "lastName": "Qodirova",
+      "phone": "+998932004543",
+      "email": "zulfiya.qodirova12@mail.uz",
+      "address": "Chilonzor, 19-mavze, 27-uy",
+      "studentIds": [
+        15,
+        38
+      ],
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "firstName": "Islom",
+      "lastName": "Sharipov",
+      "phone": "+998932004854",
+      "email": "islom.sharipov13@mail.uz",
+      "address": "Mirzo Ulug’bek, Mustaqillik 41",
+      "studentIds": [
+        16,
+        17,
+        39
+      ],
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "firstName": "Nilufar",
+      "lastName": "Umarova",
+      "phone": "+998932005165",
+      "email": "nilufar.umarova14@mail.uz",
+      "address": "Yakkasaroy, Bobur 33",
+      "studentIds": [
+        18,
+        40
+      ],
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "firstName": "Sanjar",
+      "lastName": "Jalilov",
+      "phone": "+998932005476",
+      "email": "sanjar.jalilov15@mail.uz",
+      "address": "Olmazor, Chustiy 12",
+      "studentIds": [
+        19,
+        41
+      ],
+      "notes": "Farzandining davomati yuzasidan alohida nazorat talab qiladi."
+    },
+    {
+      "id": 16,
+      "firstName": "Aziza",
+      "lastName": "Rashidova",
+      "phone": "+998932005787",
+      "email": "aziza.rashidova16@mail.uz",
+      "address": "Sergeli, Yangi Sergeli 5",
+      "studentIds": [
+        20,
+        42
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    },
+    {
+      "id": 17,
+      "firstName": "Temur",
+      "lastName": "Nazarov",
+      "phone": "+998932006098",
+      "email": "temur.nazarov17@mail.uz",
+      "address": "Yunusobod, 11-mavze, 62",
+      "studentIds": [
+        21,
+        22
+      ],
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "firstName": "Mohinur",
+      "lastName": "Karimova",
+      "phone": "+998932006409",
+      "email": "mohinur.karimova18@mail.uz",
+      "address": "Mirobod, Taras Shevchenko 8",
+      "studentIds": [
+        23
+      ],
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "firstName": "Otabek",
+      "lastName": "Toshmatov",
+      "phone": "+998932006720",
+      "email": "otabek.toshmatov19@mail.uz",
+      "address": "Bektemir, Bektemir 4",
+      "studentIds": [
+        24
+      ],
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "firstName": "Sevinch",
+      "lastName": "Rahimova",
+      "phone": "+998932007031",
+      "email": "sevinch.rahimova20@mail.uz",
+      "address": "Uchtepa, Qatortol 19",
+      "studentIds": [
+        25
+      ],
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "firstName": "Javohir",
+      "lastName": "Abdullayev",
+      "phone": "+998932007342",
+      "email": "javohir.abdullayev21@mail.uz",
+      "address": "Chilonzor, Bunyodkor 44",
+      "studentIds": [
+        26,
+        27
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    },
+    {
+      "id": 22,
+      "firstName": "Laylo",
+      "lastName": "Ismoilova",
+      "phone": "+998932007653",
+      "email": "laylo.ismoilova22@mail.uz",
+      "address": "Shayxontohur, Sebzor 16",
+      "studentIds": [
+        28
+      ],
+      "notes": "Farzandining davomati yuzasidan alohida nazorat talab qiladi."
+    },
+    {
+      "id": 23,
+      "firstName": "Farrux",
+      "lastName": "Yusupov",
+      "phone": "+998932007964",
+      "email": "farrux.yusupov23@mail.uz",
+      "address": "Olmazor, Kichik halqa 77",
+      "studentIds": [
+        29
+      ],
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "firstName": "Munisa",
+      "lastName": "Sattorova",
+      "phone": "+998932008275",
+      "email": "munisa.sattorova24@mail.uz",
+      "address": "Yunusobod, 6-mavze, 23",
+      "studentIds": [
+        30
+      ],
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "firstName": "Xurshid",
+      "lastName": "Mirzayev",
+      "phone": "+998932008586",
+      "email": "xurshid.mirzayev25@mail.uz",
+      "address": "Sergeli, 12-mavze, 9",
+      "studentIds": [
+        31,
+        32
+      ],
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "firstName": "Nozima",
+      "lastName": "Ergasheva",
+      "phone": "+998932008897",
+      "email": "nozima.ergasheva26@mail.uz",
+      "address": "Mirzo Ulug’bek, Universitet 5",
+      "studentIds": [
+        33
+      ],
+      "notes": "To'lovlarni har oyning 5-sanasigacha amalga oshiradi."
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "ENG-A1-01",
+      "courseId": 1,
+      "teacherId": 1,
+      "studentIds": [
+        1,
+        12,
+        23,
+        34
+      ],
+      "days": "Du, Ch, Ju",
+      "time": "14:00 — 15:30",
+      "room": "101",
+      "startDate": "2026-09-02",
+      "status": "active",
+      "level": "Boshlang'ich"
+    },
+    {
+      "id": 2,
+      "name": "ENG-A2-01",
+      "courseId": 1,
+      "teacherId": 1,
+      "studentIds": [
+        2,
+        13,
+        24,
+        35
+      ],
+      "days": "Du, Se, Pa",
+      "time": "16:00 — 17:30",
+      "room": "101",
+      "startDate": "2026-09-02",
+      "status": "active",
+      "level": "O'rta"
+    },
+    {
+      "id": 3,
+      "name": "ENG-B1-01",
+      "courseId": 1,
+      "teacherId": 9,
+      "studentIds": [
+        3,
+        14,
+        25,
+        36
+      ],
+      "days": "Du, Ch, Ju",
+      "time": "10:00 — 11:30",
+      "room": "102",
+      "startDate": "2026-08-02",
+      "status": "active",
+      "level": "Yuqori"
+    },
+    {
+      "id": 4,
+      "name": "IELTS-INT",
+      "courseId": 2,
+      "teacherId": 2,
+      "studentIds": [
+        4,
+        15,
+        26,
+        37
+      ],
+      "days": "Se, Pa, Sh",
+      "time": "09:00 — 11:00",
+      "room": "201",
+      "startDate": "2026-10-02",
+      "status": "active",
+      "level": "IELTS"
+    },
+    {
+      "id": 5,
+      "name": "IELTS-EVE",
+      "courseId": 2,
+      "teacherId": 11,
+      "studentIds": [
+        5,
+        16,
+        27,
+        38
+      ],
+      "days": "Du, Se, Ch",
+      "time": "18:00 — 20:00",
+      "room": "202",
+      "startDate": "2026-09-02",
+      "status": "active",
+      "level": "IELTS"
+    },
+    {
+      "id": 6,
+      "name": "MATH-5",
+      "courseId": 3,
+      "teacherId": 3,
+      "studentIds": [
+        6,
+        17,
+        28,
+        39
+      ],
+      "days": "Du, Pa, Sh",
+      "time": "15:00 — 16:30",
+      "room": "103",
+      "startDate": "2026-08-02",
+      "status": "active",
+      "level": "O'rta"
+    },
+    {
+      "id": 7,
+      "name": "FRONT-PRO",
+      "courseId": 4,
+      "teacherId": 4,
+      "studentIds": [
+        7,
+        18,
+        29,
+        40
+      ],
+      "days": "Du, Ch, Ju",
+      "time": "18:00 — 20:00",
+      "room": "301",
+      "startDate": "2026-09-02",
+      "status": "active",
+      "level": "Yuqori"
+    },
+    {
+      "id": 8,
+      "name": "DESIGN-01",
+      "courseId": 5,
+      "teacherId": 5,
+      "studentIds": [
+        8,
+        19,
+        30,
+        41
+      ],
+      "days": "Se, Pa, Sh",
+      "time": "14:00 — 16:00",
+      "room": "302",
+      "startDate": "2026-10-02",
+      "status": "active",
+      "level": "O'rta"
+    },
+    {
+      "id": 9,
+      "name": "RUS-A2",
+      "courseId": 6,
+      "teacherId": 6,
+      "studentIds": [
+        9,
+        20,
+        31,
+        42
+      ],
+      "days": "Du, Ch",
+      "time": "11:00 — 12:30",
+      "room": "104",
+      "startDate": "2026-07-02",
+      "status": "active",
+      "level": "Boshlang'ich"
+    },
+    {
+      "id": 10,
+      "name": "CHEM-01",
+      "courseId": 7,
+      "teacherId": 7,
+      "studentIds": [
+        10,
+        21,
+        32
+      ],
+      "days": "Se, Pa",
+      "time": "15:00 — 16:30",
+      "room": "105",
+      "startDate": "2026-09-02",
+      "status": "active",
+      "level": "O'rta"
+    },
+    {
+      "id": 11,
+      "name": "KIDS-IT",
+      "courseId": 8,
+      "teacherId": 8,
+      "studentIds": [
+        11,
+        22,
+        33
+      ],
+      "days": "Sh",
+      "time": "10:00 — 12:00",
+      "room": "303",
+      "startDate": "2026-10-02",
+      "status": "active",
+      "level": "Boshlang'ich"
+    },
+    {
+      "id": 12,
+      "name": "ENG-A1-02",
+      "courseId": 1,
+      "teacherId": 9,
+      "studentIds": [],
+      "days": "Se, Pa, Sh",
+      "time": "10:00 — 11:30",
+      "room": "102",
+      "startDate": "2026-12-02",
+      "status": "planned",
+      "level": "Boshlang'ich"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Ingliz tili",
+      "description": "Umumiy ingliz tili dasturi: grammatika, so'zlashuv, tinglash va yozish ko'nikmalari bosqichma-bosqich rivojlantiriladi.",
+      "duration": 12,
+      "price": 600000,
+      "levels": 4,
+      "color": "violet",
+      "teacherIds": [
+        1,
+        9
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 2,
+      "name": "IELTS Preparation",
+      "description": "Xalqaro IELTS imtihoniga intensiv tayyorgarlik. Mock imtihonlar, writing feedback va speaking practice.",
+      "duration": 4,
+      "price": 900000,
+      "levels": 3,
+      "color": "indigo",
+      "teacherIds": [
+        2,
+        11
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 3,
+      "name": "Matematika",
+      "description": "Maktab dasturini mustahkamlash va mantiqiy fikrlashni rivojlantirish. Nazariya va amaliy masalalar uyg'unligi.",
+      "duration": 9,
+      "price": 500000,
+      "levels": 4,
+      "color": "emerald",
+      "teacherIds": [
+        3
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 4,
+      "name": "Frontend Dasturlash",
+      "description": "HTML, CSS, JavaScript va React asosida zamonaviy veb-ilovalar yaratishni o'rgatuvchi amaliy kurs.",
+      "duration": 12,
+      "price": 1200000,
+      "levels": 5,
+      "color": "sky",
+      "teacherIds": [
+        4
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 5,
+      "name": "Grafik dizayn",
+      "description": "Figma, Adobe Illustrator va Photoshop yordamida brending, SMM va UI dizayn asoslari.",
+      "duration": 8,
+      "price": 850000,
+      "levels": 3,
+      "color": "rose",
+      "teacherIds": [
+        5
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 6,
+      "name": "Rus tili",
+      "description": "Rus tilida erkin muloqot qilish va yozish ko'nikmalarini rivojlantiruvchi kompleks dastur.",
+      "duration": 10,
+      "price": 550000,
+      "levels": 4,
+      "color": "amber",
+      "teacherIds": [
+        6
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 7,
+      "name": "Kimyo",
+      "description": "Umumta'lim maktab kimyo dasturi asosida nazariy va laboratoriya mashg'ulotlari.",
+      "duration": 9,
+      "price": 500000,
+      "levels": 3,
+      "color": "teal",
+      "teacherIds": [
+        7
+      ],
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 8,
+      "name": "IT Kids",
+      "description": "6–10 yoshli bolalar uchun robototexnika va dasturlash asoslari — o'yin orqali o'rganish.",
+      "duration": 6,
+      "price": 700000,
+      "levels": 2,
+      "color": "orange",
+      "teacherIds": [
+        8
+      ],
+      "createdAt": "2025-08-01"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 2,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 3,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 4,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 5,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 6,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 7,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-11",
+      "status": "late"
+    },
+    {
+      "id": 8,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 9,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 10,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 11,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-09",
+      "status": "late"
+    },
+    {
+      "id": 12,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 13,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 14,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 15,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 16,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-06",
+      "status": "absent"
+    },
+    {
+      "id": 17,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 18,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 19,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 20,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 21,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-11-02",
+      "status": "late"
+    },
+    {
+      "id": 22,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 23,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-11-02",
+      "status": "absent"
+    },
+    {
+      "id": 24,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 25,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 26,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 27,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 28,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 29,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 30,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-10-28",
+      "status": "late"
+    },
+    {
+      "id": 31,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 32,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-10-28",
+      "status": "absent"
+    },
+    {
+      "id": 33,
+      "studentId": 1,
+      "groupId": 1,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 34,
+      "studentId": 12,
+      "groupId": 1,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 35,
+      "studentId": 23,
+      "groupId": 1,
+      "date": "2026-10-26",
+      "status": "absent"
+    },
+    {
+      "id": 36,
+      "studentId": 34,
+      "groupId": 1,
+      "date": "2026-10-26",
+      "status": "absent"
+    },
+    {
+      "id": 37,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 38,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 39,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 40,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 41,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 42,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 43,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 44,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 45,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 46,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-09",
+      "status": "late"
+    },
+    {
+      "id": 47,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 48,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 49,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 50,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 51,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 52,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 53,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 54,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-03",
+      "status": "late"
+    },
+    {
+      "id": 55,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 56,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 57,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 58,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 59,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-11-02",
+      "status": "late"
+    },
+    {
+      "id": 60,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 61,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 62,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 63,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 64,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 65,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 66,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 67,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 68,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 69,
+      "studentId": 2,
+      "groupId": 2,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 70,
+      "studentId": 13,
+      "groupId": 2,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 71,
+      "studentId": 24,
+      "groupId": 2,
+      "date": "2026-10-26",
+      "status": "absent"
+    },
+    {
+      "id": 72,
+      "studentId": 35,
+      "groupId": 2,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 73,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 74,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 75,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-13",
+      "status": "absent"
+    },
+    {
+      "id": 76,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 77,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-11",
+      "status": "late"
+    },
+    {
+      "id": 78,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 79,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 80,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 81,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 82,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-09",
+      "status": "absent"
+    },
+    {
+      "id": 83,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-09",
+      "status": "late"
+    },
+    {
+      "id": 84,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 85,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-06",
+      "status": "absent"
+    },
+    {
+      "id": 86,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 87,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 88,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 89,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 90,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 91,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-04",
+      "status": "late"
+    },
+    {
+      "id": 92,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 93,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 94,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 95,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 96,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 97,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 98,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 99,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-10-30",
+      "status": "late"
+    },
+    {
+      "id": 100,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 101,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 102,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 103,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 104,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-10-28",
+      "status": "absent"
+    },
+    {
+      "id": 105,
+      "studentId": 3,
+      "groupId": 3,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 106,
+      "studentId": 14,
+      "groupId": 3,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 107,
+      "studentId": 25,
+      "groupId": 3,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 108,
+      "studentId": 36,
+      "groupId": 3,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 109,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 110,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 111,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 112,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 113,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-11-10",
+      "status": "absent"
+    },
+    {
+      "id": 114,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 115,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 116,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 117,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 118,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 119,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 120,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 121,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 122,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 123,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 124,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 125,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 126,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 127,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 128,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 129,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 130,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 131,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 132,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 133,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 134,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 135,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 136,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-10-29",
+      "status": "absent"
+    },
+    {
+      "id": 137,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 138,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 139,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 140,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 141,
+      "studentId": 4,
+      "groupId": 4,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 142,
+      "studentId": 15,
+      "groupId": 4,
+      "date": "2026-10-24",
+      "status": "late"
+    },
+    {
+      "id": 143,
+      "studentId": 26,
+      "groupId": 4,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 144,
+      "studentId": 37,
+      "groupId": 4,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 145,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 146,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 147,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 148,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 149,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 150,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-10",
+      "status": "absent"
+    },
+    {
+      "id": 151,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 152,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-10",
+      "status": "late"
+    },
+    {
+      "id": 153,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 154,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 155,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 156,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 157,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 158,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 159,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 160,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 161,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 162,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-03",
+      "status": "absent"
+    },
+    {
+      "id": 163,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 164,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 165,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 166,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 167,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 168,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 169,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-10-28",
+      "status": "absent"
+    },
+    {
+      "id": 170,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 171,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 172,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-10-28",
+      "status": "late"
+    },
+    {
+      "id": 173,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 174,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 175,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-10-27",
+      "status": "late"
+    },
+    {
+      "id": 176,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 177,
+      "studentId": 5,
+      "groupId": 5,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 178,
+      "studentId": 16,
+      "groupId": 5,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 179,
+      "studentId": 27,
+      "groupId": 5,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 180,
+      "studentId": 38,
+      "groupId": 5,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 181,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 182,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 183,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 184,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 185,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-11-09",
+      "status": "absent"
+    },
+    {
+      "id": 186,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-11-09",
+      "status": "absent"
+    },
+    {
+      "id": 187,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 188,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-11-09",
+      "status": "late"
+    },
+    {
+      "id": 189,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 190,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-11-07",
+      "status": "late"
+    },
+    {
+      "id": 191,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 192,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-11-07",
+      "status": "late"
+    },
+    {
+      "id": 193,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 194,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 195,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 196,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 197,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 198,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-11-02",
+      "status": "absent"
+    },
+    {
+      "id": 199,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 200,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 201,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-10-31",
+      "status": "absent"
+    },
+    {
+      "id": 202,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 203,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-10-31",
+      "status": "late"
+    },
+    {
+      "id": 204,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 205,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 206,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 207,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 208,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 209,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 210,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 211,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 212,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 213,
+      "studentId": 6,
+      "groupId": 6,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 214,
+      "studentId": 17,
+      "groupId": 6,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 215,
+      "studentId": 28,
+      "groupId": 6,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 216,
+      "studentId": 39,
+      "groupId": 6,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 217,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-13",
+      "status": "late"
+    },
+    {
+      "id": 218,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 219,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-13",
+      "status": "absent"
+    },
+    {
+      "id": 220,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-13",
+      "status": "present"
+    },
+    {
+      "id": 221,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 222,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-11",
+      "status": "absent"
+    },
+    {
+      "id": 223,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 224,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-11",
+      "status": "absent"
+    },
+    {
+      "id": 225,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 226,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 227,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 228,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 229,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 230,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-06",
+      "status": "late"
+    },
+    {
+      "id": 231,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-06",
+      "status": "absent"
+    },
+    {
+      "id": 232,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-06",
+      "status": "present"
+    },
+    {
+      "id": 233,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 234,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 235,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 236,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 237,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 238,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 239,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-11-02",
+      "status": "absent"
+    },
+    {
+      "id": 240,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 241,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 242,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 243,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-10-30",
+      "status": "late"
+    },
+    {
+      "id": 244,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-10-30",
+      "status": "present"
+    },
+    {
+      "id": 245,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 246,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-10-28",
+      "status": "absent"
+    },
+    {
+      "id": 247,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-10-28",
+      "status": "late"
+    },
+    {
+      "id": 248,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-10-28",
+      "status": "absent"
+    },
+    {
+      "id": 249,
+      "studentId": 7,
+      "groupId": 7,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 250,
+      "studentId": 18,
+      "groupId": 7,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 251,
+      "studentId": 29,
+      "groupId": 7,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 252,
+      "studentId": 40,
+      "groupId": 7,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 253,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 254,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 255,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 256,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 257,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 258,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-11-10",
+      "status": "absent"
+    },
+    {
+      "id": 259,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 260,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 261,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 262,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 263,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-11-07",
+      "status": "absent"
+    },
+    {
+      "id": 264,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 265,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 266,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 267,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 268,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-11-05",
+      "status": "late"
+    },
+    {
+      "id": 269,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 270,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-11-03",
+      "status": "absent"
+    },
+    {
+      "id": 271,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-11-03",
+      "status": "absent"
+    },
+    {
+      "id": 272,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 273,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 274,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 275,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 276,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 277,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 278,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 279,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-10-29",
+      "status": "absent"
+    },
+    {
+      "id": 280,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 281,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 282,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 283,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 284,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 285,
+      "studentId": 8,
+      "groupId": 8,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 286,
+      "studentId": 19,
+      "groupId": 8,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 287,
+      "studentId": 30,
+      "groupId": 8,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 288,
+      "studentId": 41,
+      "groupId": 8,
+      "date": "2026-10-24",
+      "status": "absent"
+    },
+    {
+      "id": 289,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-11-11",
+      "status": "absent"
+    },
+    {
+      "id": 290,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 291,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 292,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-11-11",
+      "status": "present"
+    },
+    {
+      "id": 293,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 294,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 295,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-11-09",
+      "status": "absent"
+    },
+    {
+      "id": 296,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-11-09",
+      "status": "present"
+    },
+    {
+      "id": 297,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 298,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 299,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-11-04",
+      "status": "present"
+    },
+    {
+      "id": 300,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-11-04",
+      "status": "late"
+    },
+    {
+      "id": 301,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-11-02",
+      "status": "late"
+    },
+    {
+      "id": 302,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 303,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-11-02",
+      "status": "absent"
+    },
+    {
+      "id": 304,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-11-02",
+      "status": "present"
+    },
+    {
+      "id": 305,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 306,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 307,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-10-28",
+      "status": "present"
+    },
+    {
+      "id": 308,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-10-28",
+      "status": "late"
+    },
+    {
+      "id": 309,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 310,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 311,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-10-26",
+      "status": "late"
+    },
+    {
+      "id": 312,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-10-26",
+      "status": "present"
+    },
+    {
+      "id": 313,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-10-21",
+      "status": "present"
+    },
+    {
+      "id": 314,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-10-21",
+      "status": "absent"
+    },
+    {
+      "id": 315,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-10-21",
+      "status": "present"
+    },
+    {
+      "id": 316,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-10-21",
+      "status": "present"
+    },
+    {
+      "id": 317,
+      "studentId": 9,
+      "groupId": 9,
+      "date": "2026-10-19",
+      "status": "present"
+    },
+    {
+      "id": 318,
+      "studentId": 20,
+      "groupId": 9,
+      "date": "2026-10-19",
+      "status": "present"
+    },
+    {
+      "id": 319,
+      "studentId": 31,
+      "groupId": 9,
+      "date": "2026-10-19",
+      "status": "late"
+    },
+    {
+      "id": 320,
+      "studentId": 42,
+      "groupId": 9,
+      "date": "2026-10-19",
+      "status": "absent"
+    },
+    {
+      "id": 321,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-11-12",
+      "status": "present"
+    },
+    {
+      "id": 322,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-11-12",
+      "status": "absent"
+    },
+    {
+      "id": 323,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-11-12",
+      "status": "late"
+    },
+    {
+      "id": 324,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-11-10",
+      "status": "absent"
+    },
+    {
+      "id": 325,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 326,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-11-10",
+      "status": "present"
+    },
+    {
+      "id": 327,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 328,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-11-05",
+      "status": "present"
+    },
+    {
+      "id": 329,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-11-05",
+      "status": "absent"
+    },
+    {
+      "id": 330,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 331,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 332,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-11-03",
+      "status": "present"
+    },
+    {
+      "id": 333,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 334,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 335,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-10-29",
+      "status": "present"
+    },
+    {
+      "id": 336,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 337,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-10-27",
+      "status": "late"
+    },
+    {
+      "id": 338,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-10-27",
+      "status": "present"
+    },
+    {
+      "id": 339,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-10-22",
+      "status": "absent"
+    },
+    {
+      "id": 340,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-10-22",
+      "status": "present"
+    },
+    {
+      "id": 341,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-10-22",
+      "status": "present"
+    },
+    {
+      "id": 342,
+      "studentId": 10,
+      "groupId": 10,
+      "date": "2026-10-20",
+      "status": "present"
+    },
+    {
+      "id": 343,
+      "studentId": 21,
+      "groupId": 10,
+      "date": "2026-10-20",
+      "status": "present"
+    },
+    {
+      "id": 344,
+      "studentId": 32,
+      "groupId": 10,
+      "date": "2026-10-20",
+      "status": "present"
+    },
+    {
+      "id": 345,
+      "studentId": 11,
+      "groupId": 11,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 346,
+      "studentId": 22,
+      "groupId": 11,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 347,
+      "studentId": 33,
+      "groupId": 11,
+      "date": "2026-11-07",
+      "status": "present"
+    },
+    {
+      "id": 348,
+      "studentId": 11,
+      "groupId": 11,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 349,
+      "studentId": 22,
+      "groupId": 11,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 350,
+      "studentId": 33,
+      "groupId": 11,
+      "date": "2026-10-31",
+      "status": "present"
+    },
+    {
+      "id": 351,
+      "studentId": 11,
+      "groupId": 11,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 352,
+      "studentId": 22,
+      "groupId": 11,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 353,
+      "studentId": 33,
+      "groupId": 11,
+      "date": "2026-10-24",
+      "status": "present"
+    },
+    {
+      "id": 354,
+      "studentId": 11,
+      "groupId": 11,
+      "date": "2026-10-17",
+      "status": "present"
+    },
+    {
+      "id": 355,
+      "studentId": 22,
+      "groupId": 11,
+      "date": "2026-10-17",
+      "status": "present"
+    },
+    {
+      "id": 356,
+      "studentId": 33,
+      "groupId": 11,
+      "date": "2026-10-17",
+      "status": "present"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 250000,
+      "month": "2026-06",
+      "date": "2026-06-11",
+      "status": "partial",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-17",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-04",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-22",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-10",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-08",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 7,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-06",
+      "date": "2026-06-11",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-06",
+      "date": "2026-06-09",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-07",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-14",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 11,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-06",
+      "date": "2026-06-19",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 12,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 13,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 0,
+      "month": "2026-06",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 14,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-14",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 15,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-17",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 16,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-07",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 17,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-04",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 18,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 1100000,
+      "month": "2026-06",
+      "date": "2026-06-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 19,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-06",
+      "date": "2026-06-04",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 20,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 0,
+      "month": "2026-06",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 21,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-23",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 22,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-06",
+      "date": "2026-06-17",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 23,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 0,
+      "month": "2026-06",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 24,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-05",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 25,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 26,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-10",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 27,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 800000,
+      "month": "2026-06",
+      "date": "2026-06-18",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 28,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-09",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 29,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-06",
+      "date": "2026-06-09",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 30,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-06",
+      "date": "2026-06-05",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 31,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-06",
+      "date": "2026-06-22",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 32,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-05",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 33,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-06",
+      "date": "2026-06-02",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 34,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-09",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 35,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-07",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 36,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-06",
+      "date": "2026-06-06",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 37,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-12",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 38,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-06",
+      "date": "2026-06-02",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 39,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-06",
+      "date": "2026-06-04",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 40,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 600000,
+      "month": "2026-06",
+      "date": "2026-06-18",
+      "status": "partial",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 41,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-06",
+      "date": "2026-06-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 42,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-06",
+      "date": "2026-06-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 43,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 44,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-16",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 45,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-04",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 46,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-11",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 47,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 550000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "partial",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 48,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-05",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 49,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-07",
+      "date": "2026-07-11",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 50,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-07",
+      "date": "2026-07-17",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 51,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-07",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 52,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 0,
+      "month": "2026-07",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 53,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-07",
+      "date": "2026-07-18",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 54,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-04",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 55,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 56,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-21",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 57,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-19",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 58,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-04",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 59,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-18",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 60,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 1100000,
+      "month": "2026-07",
+      "date": "2026-07-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 61,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-07",
+      "date": "2026-07-20",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 62,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-07",
+      "date": "2026-07-06",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 63,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-17",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 64,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-07",
+      "date": "2026-07-05",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 65,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-10",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 66,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-18",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 67,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 68,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-23",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 69,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 800000,
+      "month": "2026-07",
+      "date": "2026-07-19",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 70,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 71,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-07",
+      "date": "2026-07-20",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 72,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 73,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-07",
+      "date": "2026-07-13",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 74,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-02",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 75,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-07",
+      "date": "2026-07-21",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 76,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-21",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 77,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-07",
+      "date": "2026-07-03",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 78,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-07",
+      "date": "2026-07-13",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 79,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 80,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-07",
+      "date": "2026-07-11",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 81,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-07",
+      "date": "2026-07-07",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 82,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-07",
+      "date": "2026-07-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 83,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-07",
+      "date": "2026-07-08",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 84,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-07",
+      "date": "2026-07-16",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 85,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-11",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 86,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 87,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 88,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-02",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 89,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 90,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-14",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 91,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 92,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-08",
+      "date": "2026-08-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 93,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 94,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 95,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-08",
+      "date": "2026-08-16",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 96,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-02",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 97,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-15",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 98,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 250000,
+      "month": "2026-08",
+      "date": "2026-08-04",
+      "status": "partial",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 99,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-19",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 100,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-09",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 101,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-23",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 102,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 1100000,
+      "month": "2026-08",
+      "date": "2026-08-15",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 103,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-08",
+      "date": "2026-08-04",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 104,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 105,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 250000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "partial",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 106,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-08",
+      "date": "2026-08-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 107,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 108,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 109,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-15",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 110,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-07",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 111,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 800000,
+      "month": "2026-08",
+      "date": "2026-08-17",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 112,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 113,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-08",
+      "date": "2026-08-20",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 114,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-08",
+      "date": "2026-08-18",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 115,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-08",
+      "date": "2026-08-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 116,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-11",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 117,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-08",
+      "date": "2026-08-16",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 118,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 0,
+      "month": "2026-08",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 119,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-08",
+      "date": "2026-08-12",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 120,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-08",
+      "date": "2026-08-12",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 121,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-15",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 122,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-08",
+      "date": "2026-08-11",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 123,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-12",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 124,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-18",
+      "status": "partial",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 125,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-08",
+      "date": "2026-08-08",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 126,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 127,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 128,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-18",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 129,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-11",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 130,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-09",
+      "date": "2026-09-11",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 131,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 132,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-13",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 133,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-09",
+      "date": "2026-09-07",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 134,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-09",
+      "date": "2026-09-20",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 135,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 136,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 137,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-09",
+      "date": "2026-09-02",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 138,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-20",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 139,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-11",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 140,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-02",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 141,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 450000,
+      "month": "2026-09",
+      "date": "2026-09-20",
+      "status": "partial",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 142,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-09",
+      "date": "2026-09-12",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 143,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-03",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 144,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 1100000,
+      "month": "2026-09",
+      "date": "2026-09-22",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 145,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-09",
+      "date": "2026-09-17",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 146,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 147,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-14",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 148,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-09",
+      "date": "2026-09-08",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 149,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 150,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-07",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 151,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-11",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 152,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 450000,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "status": "partial",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 153,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 800000,
+      "month": "2026-09",
+      "date": "2026-09-11",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 154,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 0,
+      "month": "2026-09",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 155,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-09",
+      "date": "2026-09-13",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 156,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-09",
+      "date": "2026-09-20",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 157,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-09",
+      "date": "2026-09-06",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 158,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-18",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 159,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-09",
+      "date": "2026-09-03",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 160,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-19",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 161,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 162,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-09",
+      "date": "2026-09-20",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 163,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 0,
+      "month": "2026-09",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 164,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 165,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-09",
+      "date": "2026-09-10",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 166,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-09",
+      "date": "2026-09-16",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 167,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-09",
+      "date": "2026-09-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 168,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-09",
+      "date": "2026-09-08",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 169,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-17",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 170,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-17",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 171,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-02",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 172,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 173,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 174,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 175,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-10",
+      "date": "2026-10-23",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 176,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-10",
+      "date": "2026-10-08",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 177,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-14",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 178,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-11",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 179,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-10",
+      "date": "2026-10-18",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 180,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-18",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 181,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-14",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 182,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 183,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 184,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-14",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 185,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-21",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 186,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 650000,
+      "month": "2026-10",
+      "date": "2026-10-12",
+      "status": "partial",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 187,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-10",
+      "date": "2026-10-16",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 188,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-10",
+      "date": "2026-10-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 189,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-15",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 190,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-10",
+      "date": "2026-10-07",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 191,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-02",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 192,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-04",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 193,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 194,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-06",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 195,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 800000,
+      "month": "2026-10",
+      "date": "2026-10-06",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 196,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 0,
+      "month": "2026-10",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 197,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 198,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 199,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-10",
+      "date": "2026-10-20",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 200,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-22",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 201,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-10",
+      "date": "2026-10-23",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 202,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-20",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 203,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-10",
+      "date": "2026-10-19",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 204,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 205,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-23",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 206,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-10",
+      "date": "2026-10-04",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 207,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-10",
+      "date": "2026-10-11",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 208,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-10",
+      "date": "2026-10-09",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 209,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 350000,
+      "month": "2026-10",
+      "date": "2026-10-17",
+      "status": "partial",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 210,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-10",
+      "date": "2026-10-10",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 211,
+      "studentId": 1,
+      "amount": 600000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 212,
+      "studentId": 2,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-09",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 213,
+      "studentId": 3,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 214,
+      "studentId": 4,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-11",
+      "date": "2026-11-10",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 215,
+      "studentId": 5,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 216,
+      "studentId": 6,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-10",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 217,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-11",
+      "date": "2026-11-04",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 218,
+      "studentId": 8,
+      "amount": 850000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 219,
+      "studentId": 9,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 220,
+      "studentId": 10,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 221,
+      "studentId": 11,
+      "amount": 700000,
+      "paidAmount": 700000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 222,
+      "studentId": 12,
+      "amount": 600000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 223,
+      "studentId": 13,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-08",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 224,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-05",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 225,
+      "studentId": 15,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 226,
+      "studentId": 16,
+      "amount": 900000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 227,
+      "studentId": 17,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 228,
+      "studentId": 18,
+      "amount": 1100000,
+      "paidAmount": 1100000,
+      "month": "2026-11",
+      "date": "2026-11-04",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 229,
+      "studentId": 19,
+      "amount": 850000,
+      "paidAmount": 850000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 230,
+      "studentId": 20,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 231,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 250000,
+      "month": "2026-11",
+      "date": "2026-11-10",
+      "status": "partial",
+      "method": "online",
+      "note": "Qolgan summa oy oxirigacha to'lanishi kelishilgan."
+    },
+    {
+      "id": 232,
+      "studentId": 22,
+      "amount": 700000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 233,
+      "studentId": 23,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 234,
+      "studentId": 24,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-08",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 235,
+      "studentId": 25,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 236,
+      "studentId": 26,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 237,
+      "studentId": 27,
+      "amount": 800000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 238,
+      "studentId": 28,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-02",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 239,
+      "studentId": 29,
+      "amount": 1200000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 240,
+      "studentId": 30,
+      "amount": 850000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "partial",
+      "method": "online",
+      "note": "Qolgan summa oy oxirigacha to'lanishi kelishilgan."
+    },
+    {
+      "id": 241,
+      "studentId": 31,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 242,
+      "studentId": 32,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 243,
+      "studentId": 33,
+      "amount": 700000,
+      "paidAmount": 350000,
+      "month": "2026-11",
+      "date": "2026-11-06",
+      "status": "partial",
+      "method": "card",
+      "note": "Qolgan summa oy oxirigacha to'lanishi kelishilgan."
+    },
+    {
+      "id": 244,
+      "studentId": 34,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-02",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 245,
+      "studentId": 35,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-11",
+      "date": "2026-11-06",
+      "status": "paid",
+      "method": "card",
+      "note": ""
+    },
+    {
+      "id": 246,
+      "studentId": 36,
+      "amount": 550000,
+      "paidAmount": 550000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "online",
+      "note": ""
+    },
+    {
+      "id": 247,
+      "studentId": 37,
+      "amount": 900000,
+      "paidAmount": 450000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "partial",
+      "method": "online",
+      "note": "Qolgan summa oy oxirigacha to'lanishi kelishilgan."
+    },
+    {
+      "id": 248,
+      "studentId": 38,
+      "amount": 900000,
+      "paidAmount": 900000,
+      "month": "2026-11",
+      "date": "2026-11-12",
+      "status": "paid",
+      "method": "transfer",
+      "note": ""
+    },
+    {
+      "id": 249,
+      "studentId": 39,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "paid",
+      "method": "cash",
+      "note": ""
+    },
+    {
+      "id": 250,
+      "studentId": 40,
+      "amount": 1200000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 251,
+      "studentId": 41,
+      "amount": 850000,
+      "paidAmount": 0,
+      "month": "2026-11",
+      "date": null,
+      "status": "unpaid",
+      "method": null,
+      "note": ""
+    },
+    {
+      "id": 252,
+      "studentId": 42,
+      "amount": 550000,
+      "paidAmount": 200000,
+      "month": "2026-11",
+      "date": "2026-11-13",
+      "status": "partial",
+      "method": "transfer",
+      "note": "Qolgan summa oy oxirigacha to'lanishi kelishilgan."
+    },
+    {
+      "id": 253,
+      "studentId": 7,
+      "amount": 1200000,
+      "paidAmount": 1200000,
+      "month": "2026-10",
+      "date": "2026-10-18",
+      "status": "paid",
+      "method": "card",
+      "note": "Qo'shimcha mashg'ulot to'lovi"
+    },
+    {
+      "id": 254,
+      "studentId": 14,
+      "amount": 600000,
+      "paidAmount": 600000,
+      "month": "2026-09",
+      "date": "2026-09-18",
+      "status": "paid",
+      "method": "card",
+      "note": "Qo'shimcha mashg'ulot to'lovi"
+    },
+    {
+      "id": 255,
+      "studentId": 21,
+      "amount": 500000,
+      "paidAmount": 500000,
+      "month": "2026-08",
+      "date": "2026-08-18",
+      "status": "paid",
+      "method": "card",
+      "note": "Qo'shimcha mashg'ulot to'lovi"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "Yangi o‘quvchi qo‘shildi",
+      "message": "Dilnoza Karimova IELTS Intensive guruhiga qabul qilindi.",
+      "type": "student",
+      "date": "2026-11-13T04:12:00.000Z",
+      "read": false,
+      "link": "/students"
+    },
+    {
+      "id": 2,
+      "title": "To‘lov eslatmasi",
+      "message": "Joriy oy uchun 11 nafar o‘quvchida to‘lov qoldig‘i mavjud.",
+      "type": "payment",
+      "date": "2026-11-12T11:40:00.000Z",
+      "read": false,
+      "link": "/payments"
+    },
+    {
+      "id": 3,
+      "title": "Ota-onalar yig‘ilishi",
+      "message": "4 kundan keyin umumiy ota-onalar yig‘ilishi bo‘lib o‘tadi.",
+      "type": "event",
+      "date": "2026-11-12T05:05:00.000Z",
+      "read": false,
+      "link": "/"
+    },
+    {
+      "id": 4,
+      "title": "Yangi guruh rejalashtirildi",
+      "message": "ENG-A1-02 guruhi uchun o‘quvchilar qabuli boshlandi.",
+      "type": "group",
+      "date": "2026-11-11T09:20:00.000Z",
+      "read": true,
+      "link": "/groups"
+    },
+    {
+      "id": 5,
+      "title": "Davomat hisoboti tayyor",
+      "message": "Oxirgi hafta bo‘yicha davomat hisoboti shakllantirildi.",
+      "type": "attendance",
+      "date": "2026-11-10T03:30:00.000Z",
+      "read": true,
+      "link": "/reports"
+    },
+    {
+      "id": 6,
+      "title": "Tizimga muvaffaqiyatli kirdingiz",
+      "message": "Nexus Education boshqaruv paneliga xush kelibsiz.",
+      "type": "system",
+      "date": "2026-11-09T13:00:00.000Z",
+      "read": true,
+      "link": "/"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Ota-onalar umumiy yig'ilishi",
+      "description": "Oylik natijalar, davomat va to'lovlar bo'yicha muhokama.",
+      "date": "2026-11-17",
+      "time": "18:00",
+      "type": "meeting",
+      "location": "Katta konferens-zal"
+    },
+    {
+      "id": 2,
+      "title": "IELTS mock imtihon",
+      "description": "Listening, Reading, Writing va Speaking bo'limlari bo'yicha sinov imtihoni.",
+      "date": "2026-11-21",
+      "time": "09:00",
+      "type": "exam",
+      "location": "201-xona"
+    },
+    {
+      "id": 3,
+      "title": "IT Kids yangi guruhi ochilishi",
+      "description": "6–10 yoshli bolalar uchun robototexnika guruhi. Bepul sinov darsi.",
+      "date": "2026-11-26",
+      "time": "10:00",
+      "type": "opening",
+      "location": "303-xona"
+    },
+    {
+      "id": 4,
+      "title": "Ochiq eshiklar kuni",
+      "description": "Markaz faoliyati bilan tanishish va o'qituvchilar bilan suhbat.",
+      "date": "2026-12-03",
+      "time": "11:00",
+      "type": "event",
+      "location": "Asosiy bino"
+    },
+    {
+      "id": 5,
+      "title": "Noyabr to'lovlarini yakunlash",
+      "description": "Joriy oy uchun to'lovlarni qabul qilishning oxirgi kuni.",
+      "date": "2026-12-09",
+      "time": "18:00",
+      "type": "payment",
+      "location": "Qabul bo’limi"
+    }
+  ],
+  "settings": {
+    "id": 1,
+    "centerName": "Nexus Education",
+    "phone": "+998 71 200 40 40",
+    "email": "info@nexusedu.uz",
+    "address": "Toshkent sh., Mirzo Ulug’bek tumani, Buyuk Ipak Yo’li 88",
+    "workingHours": "Dushanba — Shanba, 08:00 — 20:00",
+    "telegram": "@nexusedu",
+    "instagram": "@nexus.education",
+    "updatedAt": "2026-11-13"
+  }
+}

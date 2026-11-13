@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nexus Education — o'quv markazi uchun premium boshqaruv paneli"
+    />
+    <title>Nexus Education — Boshqaruv paneli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,400..600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Tema ilova yuklanishidan oldin qo'llanadi — "flash" holatini oldini oladi.
+      ;(() => {
+        try {
+          const stored = localStorage.getItem('nexus-theme')
+          let theme = 'light'
+          if (stored) {
+            try {
+              const parsed = JSON.parse(stored)
+              theme = parsed?.state?.theme === 'dark' ? 'dark' : 'light'
+            } catch {
+              theme = stored === 'dark' ? 'dark' : 'light'
+            }
+          }
+          document.documentElement.classList.toggle('dark', theme === 'dark')
+          document.documentElement.style.colorScheme = theme
+        } catch {
+          /* localStorage mavjud emas */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

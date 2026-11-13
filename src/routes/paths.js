@@ -1,0 +1,18 @@
+export const ROUTES = {
+  login: '/login',
+  dashboard: '/',
+  students: '/students',
+  student: (id) => `/students/${id}`,
+  teachers: '/teachers',
+  teacher: (id) => `/teachers/${id}`,
+  employees: '/employees',
+  parents: '/parents',
+  parent: (id) => `/parents/${id}`,
+  groups: '/groups',
+  group: (id) => `/groups/${id}`,
+  courses: '/courses',
+  attendance: '/attendance',
+  payments: '/payments',
+  reports: '/reports',
+  settings: '/settings',
+}
